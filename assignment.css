@@ -20,21 +20,30 @@ div img {
 
 .container1 {
     height: 200px;
-    
+    display: flex;
+    justify-content: space-evenly
 }
 
 .container2 {
     height: 200px;
+    display: flex;
+    justify-content: center
+
     
 }
 
 .container3 {
     height: 200px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
     
 }
 
 .container4 {
     height: 200px;
+    justify-content: space-around;
+    align-items: center;
     
 }
 
